@@ -1,0 +1,12 @@
+name: email-env
+description: Email triage environment
+
+actions:
+  - spam
+  - important
+  - urgent
+
+observations:
+  - email_text
+
+reward: 0.0 to 1.0
